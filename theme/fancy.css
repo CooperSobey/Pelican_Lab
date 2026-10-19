@@ -81,13 +81,14 @@ main section {
 
 article > footer address {
     display: block;
+    text-align: center;
 }
 
 article > footer address::after{
-    text-align: center;
-    color: #43270F;
     content: "\A~--- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---~";
-    white-space: pre;
+    white-space: pre-wrap;
+    font-size: 1.5em;
+    color: #43270F;
 }
 
 nav {
