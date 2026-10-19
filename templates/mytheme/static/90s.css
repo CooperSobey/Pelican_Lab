@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 100%;
+    color: #8cff00;
+
+    background-image: url(../images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
+    
+}
+
+/*#web-switch {
+    flex: 1 1 100%;
+    order: -1;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding:6px 0;
+    background: linear-gradient(90deg, black, white);
+}*/
+
+body > header {
+    flex: 0 0 200px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0 0 8px;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    background: #c1a8a8a9;
+    border: 4px outset white;
+    border-left: 0;
+    box-shadow: 4px 4px 0 black;
+}
+
+body > header h1 {
+    margin: 0 0 6px;
+    padding: 6px 8px;
+    font-size: 1.2em;
+    text-align: left;
+    color: black;
+    background: linear-gradient(67deg, rgb(239, 41, 216), #1084D0);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 10px 20px 10px 20px;
+    padding: 15px 25px;
+    background: purple;
+    border: 4px ridge #1293e9;
+    box-shadow: 4px 4px 0 black;
+}
+
+/*prevents shrinkage of articles*/
+main > * {
+    flex: 0 0 auto;
+}
+
+main article {
+    flex: 0 0 min(70ch, 85%);
+    scroll-snap-align: start;
+}
+
+main h1 {
+    margin-top: 0;
+    padding: 4px 8px;
+    color: white;
+    background: linear-gradient(137deg, orange, green);
+}
+
+main p {
+    line-height: 1.5;
+}
+
+main h2 a{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -99999px;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 4px outset white;
+}
+
+main h2 a[href*="dracula"] {background-image: url(../images/dracula.jpeg);}
+main h2 a[href*="moby"]    { background-image: url(../images/moby.jpg); }
+main h2 a[href*="dorian"]  { background-image: url(../images/dorian.jpg); }
+main h2 a[href*="frankenstein"]   { background-image: url(../images/frank.jpg); }
+
+a {
+    border-bottom: 5px groove blue;
+}
+article > footer address a {
+    color: orange;
+}
+
+article > footer address::after{
+    content: "\A🌈          🌈          🌈          🌈          🌈";
+    white-space: pre-wrap;
+    font-size: 2em;
+}
+
+a::hover{
+    background: linear-gradient(180deg, yellow, black);
+}

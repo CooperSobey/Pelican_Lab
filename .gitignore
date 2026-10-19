@@ -1,1 +1,46 @@
+#output/
+
+#git ignore taken from chatgpt.
+#prompt: A git repository with a main or src branch that does not contain built (compiled, transpiled, bundled) or downloaded artifacts, including but not limited to:
+#
+#    virtualenv venv etc.
+#    .pyc files, __pycache__ directories.
+#    node_modules
+#    Folders like output or any other output HTML produced by Pelican.
+#
+#what do I need to put in my .gitignore for a pelican project
+
+#2026-10-19 at 3:43pm
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Pelican build output
 output/
+cache/
+*.pid
+pelican.pid
+srv.pid
+
+# Node (if you ever use npm tooling)
+node_modules/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
