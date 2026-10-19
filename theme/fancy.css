@@ -8,7 +8,7 @@ html, body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     /*background-color: #767601;*/
-    background-color: rgb(72, 0, 255);
+    background-color: rgb(122, 105, 167);
     color: #43270F;
 }
 
@@ -43,6 +43,15 @@ main a {
 }
 main a:hover {
     background: #0d58a4;
+}
+
+main p {
+    margin: 0;
+    text-align: center;
+    text-indent: 3em;
+}
+main p:after {
+    content: "~--- --- --- --- ---~"
 }
 
 nav ul {
