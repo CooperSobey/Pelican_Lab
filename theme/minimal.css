@@ -59,5 +59,22 @@ header a {
 main {
     order: 2;
     flex: 1 0 auto;
+    padding: 2px 0 2px;
+    text-align: left;
+}
+
+main h1 {
+
+}
+
+main h2{
+
+}
+
+main p{
+
+}
+
+main a{
     
 }

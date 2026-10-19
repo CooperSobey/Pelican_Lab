@@ -15,7 +15,7 @@ body {
     
 }
 
-#web-switch {
+/*#web-switch {
     flex: 1 1 100%;
     order: -1;
     display: flex;
@@ -23,7 +23,7 @@ body {
     gap: 8px;
     padding:6px 0;
     background: linear-gradient(90deg, black, white);
-}
+}*/
 
 body > header {
     flex: 0 0 200px;
