@@ -12,7 +12,7 @@ html, body {
     /*background-color: #767601;*/
     background-color: #767601;
     color: #43270F;
-    background-image: radial-gradient(Beige, 3px, 3px);
+    background-image: radial-gradient(Beige, 3px, transparent 3px);
     background-size: 20px 20px;
 }
 
