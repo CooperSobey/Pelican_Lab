@@ -4,7 +4,7 @@ html, body {
     align-items: flex-start;
     margin: 0;
     border: 0;
-    padding: 30;
+    padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     /*background-color: #767601;*/
@@ -17,9 +17,9 @@ html, body {
 }
 
 main {
-    padding: 10 40 10;
+    padding: 10px 40px 10px;
     background: #527001;
-    border: 3 solid #000000;
+    border: 3px solid #000000;
 }
 
 main h1 {
@@ -27,8 +27,8 @@ main h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-variant: small-caps;
     color: #c27312;
-    border-bottom: 2 dotted #c27312;
-    padding-bottom: 5;
+    border-bottom: 2px dotted #c27312;
+    padding-bottom: 5px;
 
 }
 
@@ -38,8 +38,8 @@ main h2, h3 {
 
 main a {
     color: #c27312;
-    border-bottom: 2 dashed #c27312;
-    padding-bottom: 5;
+    border-bottom: 2px dashed #c27312;
+    padding-bottom: 5px;
 }
 main a:hover {
     background: #0d58a4;
@@ -48,20 +48,20 @@ main a:hover {
 nav ul {
     list-style: georgian;
     text-align: left;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav li {
-    margin: 5 0;
+    margin: 5 0px;
 }
 
 nav a {
     display: block;
-    padding: 10 10;
+    padding: 10px 10px;
     margin: 0;
     color: brown;
-    border-left: 10 solid transparent;
+    border-left: 10px solid transparent;
 }
 
 nav a:hover {
