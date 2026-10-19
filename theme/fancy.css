@@ -62,7 +62,6 @@ main h2 {
 main a {
     color: #985400;
     border-bottom: 3px dashed #985400;
-    padding-bottom: 5px;
     text-decoration: none;
 }
 main a:hover {
@@ -85,7 +84,9 @@ article > footer address {
 }
 
 article > footer address::after{
-    content: "\A~--- ---- ---- ---- ---~";
+    text-align: center;
+    color: #43270F;
+    content: "\A~--- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---~";
     white-space: pre;
 }
 
