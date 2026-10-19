@@ -80,10 +80,13 @@ main section {
     text-align: center;
 }
 
-footer p:after {
-    content: "\A~--- --- --- --- ---~";
+article > footer address {
+    display: block;
+}
+
+article > footer address::after{
+    content: "\A~--- ---- ---- ---- ---~";
     white-space: pre;
-    margin-bottom: 10px;
 }
 
 nav {
