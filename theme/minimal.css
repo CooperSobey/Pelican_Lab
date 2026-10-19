@@ -63,7 +63,10 @@ header a {
 main {
     order: 2;
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
     padding: 2px 0 2px;
+    gap: 2em;
     text-align: left;
 }
 
@@ -94,6 +97,11 @@ main section{
     margin-top: 3em;
     padding-top: 1em;
     border-top: 1px solid #0C0C0C;
+}
+
+main article {
+    padding: 2em;
+    background: #DDDACE;
 }
 
 main a{
