@@ -141,7 +141,7 @@ nav a {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 0.8em;
     text-transform: capitalize;
-    color: #C6C3B6;
+    color: #0B7B9E;
     text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ article > footer address {
 }
 
 article > footer address a{
-    color: #C6C3B6;
+    color: #0B7B9E;
 }
 
 article > footer address::after {
@@ -173,7 +173,7 @@ article > footer address::after {
 #web-switch {
     order: 4;
     font-family: 'Helvetica Neue', sans-serif;
-    color: #C6C3B6;
+    color: #0B7B9E;
 }
 /*
 Color Scheme:        Darker:
