@@ -9,6 +9,20 @@
 
     <link id="_stylesheet" rel="stylesheet" type="text/css" href="https://coopersobey.github.io/Pelican_Lab/theme/fancy.css" />
 
+    <div id = "web_switch">
+        <button onclick="changeStylesheet('fancy.css')">fancy mode</button>
+        <button onclick="changeStylesheet('minimal.css')">minimal mode</button>
+        <button onclick="changeStylesheet('90s.css')">90s mode</button>
+    </div>
+    <script>
+    const stylesheetRegex = /[^/]*\.css$/
+
+    function changeStylesheet(style){
+            let element = document.getElementById("_stylesheet")
+            element.setAttribute("href", element.getAttribute("href").replace(stylesheetRegex, style))
+    }
+    </script>
+
 
 
 
