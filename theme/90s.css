@@ -3,13 +3,13 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 0;
     margin: 0;
     border: 0;
-    padding: 10px;
+    padding: 0;
     font-family: 'Comic Sans MS', cursive;
     font-size: 100%;
-    color: #43270F;
+    color: #8cff00;
 
     background-image: url(../images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
     /*background-color: blueviolet;*/
@@ -24,11 +24,13 @@ body > header {
     flex: 0 0 200px;
     position: sticky;
     top: 10px;
+    margin: 0;
     padding: 0 0 8px;
     font-family: 'Comic Sans MS', cursive;
     text-align: center;
     background: #c1a8a8a9;
     border: 4px outset white;
+    border-left: 0;
     box-shadow: 4px 4px 0 black;
 }
 
@@ -42,8 +44,9 @@ body > header h1 {
 }
 
 main {
-    flex: 1 1 0px;
+    flex: 1 1 auto;
     min-width: 0;
+    margin: 10px 20px 10px 20px;
     padding: 15px 25px;
     background: purple;
     border: 4px ridge #1293e9;
