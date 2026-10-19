@@ -7,11 +7,11 @@ body {
     margin: 0;
     border: 0;
     padding: 10px;
-    font-family: 'Press Start 2p', 'Courier New', monospace;
+    font-family: 'Comic Sans MS', cursive;
     font-size: 100%;
     color: #43270F;
 
-    background-image: url(../../../content/images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
+    background-image: url(../images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
     /*background-color: blueviolet;*/
 }
 
@@ -60,8 +60,8 @@ main h2 a{
     border: 4px outset white;
 }
 
-main h2 a[href*="dracula"] {background-image: url(../../../content/images/dracula.jpeg);}
-main h2 a[href*="moby"]    { background-image: url(../../../content/images/moby.jpg); }
-main h2 a[href*="dorian"]  { background-image: url(../../../content/images/dorian.jpg); }
-main h2 a[href*="frankenstein"]   { background-image: url(../../../content/images/frank.jpg); }
+main h2 a[href*="dracula"] {background-image: url(../images/dracula.jpeg);}
+main h2 a[href*="moby"]    { background-image: url(../images/moby.jpg); }
+main h2 a[href*="dorian"]  { background-image: url(../images/dorian.jpg); }
+main h2 a[href*="frankenstein"]   { background-image: url(../images/frank.jpg); }
 
