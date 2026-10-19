@@ -12,7 +12,7 @@ body {
     color: #8cff00;
 
     background-image: url(../images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
-    /*background-color: blueviolet;*/
+    
 }
 
 #web-switch {
@@ -113,7 +113,7 @@ article > footer address a {
 }
 
 article > footer address::after{
-    content: "\A🌈          🌈          🌈          🌈          🌈          🌈          🌈";
+    content: "\A🌈          🌈          🌈          🌈          🌈";
     white-space: pre-wrap;
     font-size: 2em;
 }
