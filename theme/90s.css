@@ -17,6 +17,7 @@ body {
 
 #web-switch {
     flex: 1 1 100%;
+    align-items: flex-end;
     text-align: center;
     order: -1;
     padding:6px 0;
@@ -111,8 +112,7 @@ article > footer address a {
 }
 
 article > footer address::after{
-    content: "\A~--- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---~";
+    content: "\A🌈          🌈          🌈          🌈          🌈          🌈          🌈";
     white-space: pre-wrap;
-    font-size: 1.5em;
-    color: #43270F;
+    font-size: 2em;
 }
