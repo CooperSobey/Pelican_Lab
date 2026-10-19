@@ -51,7 +51,7 @@ main p {
     text-indent: 3em;
 }
 main p:after {
-    content: "~--- --- --- --- ---~"
+    content: "\A~--- --- --- --- ---~"
 }
 
 nav ul {
