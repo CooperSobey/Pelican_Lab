@@ -109,6 +109,62 @@ main a:hover {
     text-decoration-thickness: 3px;
 }
 
+nav {
+    order: 3;
+    padding: 2em 0;
+    border-top: 1px solid #0C0C0C;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: lower-roman;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    color: #C6C3B6;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #002756;
+}
+
+article > footer address {
+    display: block;
+    margin-top: 2em;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    font-style: normal;
+    color: #C6C3B6;
+}
+
+article > footer address a{
+    color: #C6C3B6;
+}
+
+article > footer address::after {
+    content: "_   _   _   _   _   _   _   _";
+    display: block;
+    margin-top: 2em;
+    color: #002756;
+}
+
+#web-switch {
+    order: 4;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #C6C3B6;
+}
 /*
 Color Scheme:        Darker:
 body txt            border top
@@ -117,6 +173,7 @@ Black: #212121      #0C0C0C
 Blue: #00447C       #002756
                     Header links
 Aqua: #0B7B9E       #035B7A
+                    Article footer address
 Beige: # DDDACE     #C6C3B6
 background
 White: #F2F3F4      #EAEAEA
