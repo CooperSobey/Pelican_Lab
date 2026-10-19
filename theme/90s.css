@@ -17,9 +17,10 @@ body {
 
 #web-switch {
     flex: 1 1 100%;
-    align-items: flex-end;
-    text-align: center;
     order: -1;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
     padding:6px 0;
     background: linear-gradient(90deg, black, white);
 }
@@ -115,4 +116,8 @@ article > footer address::after{
     content: "\A🌈          🌈          🌈          🌈          🌈          🌈          🌈";
     white-space: pre-wrap;
     font-size: 2em;
+}
+
+a::hover{
+    background: linear-gradient(180deg, yellow, black);
 }
