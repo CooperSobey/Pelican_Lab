@@ -8,7 +8,7 @@ html, body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     /*background-color: #767601;*/
-    background-color: aqua;
+    background-color: rgb(191, 0, 255);
     color: #43270F;
 }
 
@@ -18,6 +18,7 @@ html, body {
 
 main {
     padding: 10 40 10;
+    background: #527001;
     border: 3 solid #000000;
 }
 
@@ -28,6 +29,9 @@ main h1 {
     em {
         font-style: italic;
     }
+    color: #c27312;
+    border-bottom: 5 dotted #c27312;
+    padding-bottom: 5;
 
 }
 
@@ -38,7 +42,23 @@ main h2, h3 {
 main a {
     color: #c27312;
     border-bottom: 2 dashed #c27312;
+    padding-bottom: 5;
 }
 main a:hover {
     background: #0d58a4;
+}
+
+nav ul {
+    list-style: georgian;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10 10;
+    margin: 0;
+    color: brown;
+    border-left: 10 solid transparent;
 }
