@@ -4,11 +4,13 @@ html, body {
     align-items: flex-start;
     margin: 0;
     border: 0;
-    padding: 30px;
+    padding: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     background-color: #767601;
     color: #43270F;
+}
 
-    background-image: radial-gradient(#D4C294 1px, transparent 1px);
-    background-size: 50px 50px;
+#banner {
+    background: #0d58a4;
 }
