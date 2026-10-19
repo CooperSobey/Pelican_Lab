@@ -8,7 +8,7 @@ html, body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     /*background-color: #767601;*/
-    background-color: rgb(191, 0, 255);
+    background-color: rgb(72, 0, 255);
     color: #43270F;
 }
 
@@ -26,17 +26,14 @@ main h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-variant: small-caps;
-    em {
-        font-style: italic;
-    }
     color: #c27312;
-    border-bottom: 5 dotted #c27312;
+    border-bottom: 2 dotted #c27312;
     padding-bottom: 5;
 
 }
 
 main h2, h3 {
-    font-style: normal;
+    font-style: italic;
 }
 
 main a {
@@ -55,10 +52,20 @@ nav ul {
     padding: 0;
 }
 
+nav li {
+    margin: 5 0;
+}
+
 nav a {
     display: block;
     padding: 10 10;
     margin: 0;
     color: brown;
     border-left: 10 solid transparent;
+}
+
+nav a:hover {
+    background: #000000;
+    color: #F6EED6;
+    border-left-color: chartreuse;
 }
