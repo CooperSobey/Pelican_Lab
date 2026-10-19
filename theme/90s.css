@@ -18,12 +18,15 @@ body {
 #web-switch {
     flex: 1 1 100%;
     text-align: center;
+    order: -1;
+    padding:6px 0;
+    background: linear-gradient(90deg, black, white);
 }
 
 body > header {
     flex: 0 0 200px;
     position: sticky;
-    top: 10px;
+    top: 0;
     margin: 0;
     padding: 0 0 8px;
     font-family: 'Comic Sans MS', cursive;
@@ -44,6 +47,13 @@ body > header h1 {
 }
 
 main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
     flex: 1 1 auto;
     min-width: 0;
     margin: 10px 20px 10px 20px;
@@ -51,6 +61,16 @@ main {
     background: purple;
     border: 4px ridge #1293e9;
     box-shadow: 4px 4px 0 black;
+}
+
+/*prevents shrinkage of articles*/
+main > * {
+    flex: 0 0 auto;
+}
+
+main article {
+    flex: 0 0 min(70ch, 85%);
+    scroll-snap-align: start;
 }
 
 main h1 {
@@ -83,3 +103,16 @@ main h2 a[href*="moby"]    { background-image: url(../images/moby.jpg); }
 main h2 a[href*="dorian"]  { background-image: url(../images/dorian.jpg); }
 main h2 a[href*="frankenstein"]   { background-image: url(../images/frank.jpg); }
 
+a {
+    border-bottom: 5px groove blue;
+}
+article > footer address a {
+    color: orange;
+}
+
+article > footer address::after{
+    content: "\A~--- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---~";
+    white-space: pre-wrap;
+    font-size: 1.5em;
+    color: #43270F;
+}
