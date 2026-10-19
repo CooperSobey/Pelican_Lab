@@ -14,3 +14,30 @@ html, body {
 #banner {
     background: #0d58a4;
 }
+
+main {
+    padding: 10 40 10;
+    border: 3 solid #000000;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    em {
+        font-style: italic;
+    }
+
+}
+
+main h2, h3 {
+    font-style: normal;
+}
+
+main a {
+    color: #c27312;
+    border-bottom: 2 dashed #c27312;
+}
+main a:hover {
+    background: #0d58a4;
+}
