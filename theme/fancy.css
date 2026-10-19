@@ -25,14 +25,13 @@ header {
     box-shadow: 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-header::before {
-    content: "~ ";
-    margin: 0 0.5em;
+header a {
+    color: #985400;
 }
 
-header::after {
-    content: " ~";
-    margin: 0 0.5em;
+header::before, header::after {
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~";
+    margin: 0 0.25em;
 }
 
 main {
@@ -46,8 +45,8 @@ main {
 main h1 {
     text-align: center;
     font-variant: small-caps;
-    color: #c27312;
-    border-bottom: 3px dotted #c27312;
+    color: #985400;
+    border-bottom: 3px dotted #985400;
     padding-bottom: 5px;
 
 }
@@ -55,13 +54,13 @@ main h1 {
 main h2 {
     font-style: italic;
     color: antiquewhite;
-    border-left: 5px #c27312;
+    border-left: 5px #985400;
     padding-left: 10px;
 }
 
 main a {
-    color: #c27312;
-    border-bottom: 2px dashed #c27312;
+    color: #985400;
+    border-bottom: 3px dashed #985400;
     padding-bottom: 5px;
     text-decoration: none;
 }
@@ -72,11 +71,18 @@ main a:hover {
 main p {
     margin: 0;
     text-align: center;
-    text-indent: 3em;
+
 }
-main p:after {
+
+main section {
+    margin-top: 3px;
+    text-align: center;
+}
+
+footer p:after {
     content: "\A~--- --- --- --- ---~";
     white-space: pre;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -102,7 +108,7 @@ nav a {
     display: inline-block;
     padding: 10px;
     margin: 0;
-    color: brown;
+    color: #985400;
     text-decoration: none;
     border-left: 10px solid transparent;
 }
