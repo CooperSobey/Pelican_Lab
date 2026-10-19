@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    font-family: 'Press Start 2p', 'Courier New', monospace;
+    font-size: 100%;
+    color: #43270F;
+
+    background-image: url(../../../content/images/1000_F_280027847_qjP1ilQv9g1Vj6951af2fsTgBT3hHeNy.webp);
+    background-color: blueviolet;
+}
